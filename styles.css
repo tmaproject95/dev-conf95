@@ -14,10 +14,11 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: 'Times New Roman', Times, serif;   
+    font-family: 'Times New Roman', Times, serif; 
+    margin: 10px;  
   
 }
-button {
+.m {
     width: 188px;
     height: 48px;
     background-color:#1d4ed8;
@@ -25,4 +26,68 @@ button {
     font-weight: bold;
     border-radius: 10px;
     padding: 12px;
+}
+.secone {
+    position: relative;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    height: 786px;
+
+    
+
+    
+}
+.h{
+    position: absolute;
+    
+    text-align: center;
+    
+     
+
+}
+.h h1{
+    margin-left:50% ;
+    color: white;
+
+    font-size: 100px;
+}
+p {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+     margin-left:33% ;
+     margin-top: 10%;
+    
+   
+}
+
+
+.fimg{
+    width: 100%;
+    height:100%;
+    object-fit:cover ;
+   
+
+
+    
+}
+body{
+    margin: 0;
+}
+
+.b{
+      position: absolute;
+    width: 188px;
+    height: 48px;
+  
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #1d4ed8;
+   
+    top: 80%;
+    left: 43%;
+    
+  
 }
