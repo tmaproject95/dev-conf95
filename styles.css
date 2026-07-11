@@ -18,76 +18,64 @@ nav {
     margin: 10px;  
   
 }
-.m {
-    width: 188px;
-    height: 48px;
-    background-color:#1d4ed8;
-    color:white;
-    font-weight: bold;
-    border-radius: 10px;
-    padding: 12px;
-}
-.secone {
-    position: relative;
-    width: 100%;
-    background-color: rgba(0,0,0,0.5);
-    height: 786px;
 
-    
-
-    
-}
-.h{
-    position: absolute;
-    
-    text-align: center;
-    
-     
-
-}
-.h h1{
-    margin-left:50% ;
-    color: white;
-
-    font-size: 100px;
-}
-p {
-    position: absolute;
-    font-size: 20px;
-    color: white;
-    text-align: center;
-     margin-left:33% ;
-     margin-top: 10%;
-    
-   
-}
 
 
 .fimg{
     width: 100%;
     height:100%;
     object-fit:cover ;
-   
-
-
-    
 }
+
 body{
     margin: 0;
 }
-
-.b{
-      position: absolute;
+.secone {
+    position:relative;
+}
+.seconediv{
+    position: absolute;
+    color: white;
+    
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+   
+}
+h1{
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 750px;
+}
+.seconediv p {
+    position: absolute;
+    font-size: 20px;
+    margin-bottom: 480px;
+}
+.b {
     width: 188px;
+    height: 48px;
+    position: absolute;
+    color:white;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: #1d4ed8;
+    margin-top: 850px;
+   
+}
+.m{
+    width: 150px;
     height: 48px;
   
     color:white;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #1d4ed8;
    
     top: 80%;
     left: 43%;
-    
-  
 }
