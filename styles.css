@@ -64,7 +64,7 @@ h1{
     font-weight: bold;
     border-radius: 30px;
     background-color: #1d4ed8;
-    margin-top: 850px;
+    margin-top: 900px;
    
 }
 .m{
@@ -78,4 +78,10 @@ h1{
    
     top: 80%;
     left: 43%;
+}
+.overlay {
+     position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+
 }
